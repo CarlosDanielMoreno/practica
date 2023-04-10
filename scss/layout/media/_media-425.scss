@@ -1,0 +1,35 @@
+@media (max-width: 425px ){
+
+	.main-index{
+    .content{
+		@include grid-3(100%,250px,grid,repeat(1,1fr),30px);
+		
+	}
+    .content-2{
+		@include grid-3(100%,250px,grid,repeat(1,1fr),30px);
+	}
+}
+    .footer a{
+		display: none;
+	}
+	/*novel-list*/
+	.main-top{
+
+		width: 100%;
+		max-width: 300px;
+		background-color: #fff;
+		margin: auto;
+	}
+	.card{
+	.add  {
+		a{
+			display: none;
+		}	
+	}
+	.die {
+		a{
+			display: none;
+		}
+	}
+}
+}

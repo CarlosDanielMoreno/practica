@@ -1,0 +1,69 @@
+
+@media (max-width: 650px ){
+   
+    header{
+        .checkbtn{
+            display: block;
+        }
+        .hiden{
+            display: initial;
+        }
+       
+    
+        .buscador-1{
+            display: none;
+        }
+        .movil{
+		
+            
+            display: flex;
+            justify-content: space-between;
+                
+        }
+        
+    }
+
+    header{
+      
+        ul {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: #2c3e50;
+            top: 170px;
+            left: -100%;
+            text-align: center;
+            transition: all .5s;
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+
+            li {
+                display: block;
+                margin: 50px 0;
+                line-height: 30px;
+            }
+        }
+    }
+    #check:checked ~ ul {
+        left:0;
+    }
+    }
+    /*novel-list*/
+    .movil{
+		
+		width: 100%;
+		max-width: 600px;
+		display: flex;
+		justify-content: space-between;
+    }
+    .main-top{
+        ul{
+		flex-wrap: wrap;
+        }
+	}
+
+    .main-novel{
+    
+    }
+    

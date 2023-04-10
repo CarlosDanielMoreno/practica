@@ -1,0 +1,31 @@
+/*indexssss*/
+main{
+    .titulo {
+        margin: 20px;
+    text-align: center;
+    font-family:'Open Sans';
+    
+    }
+    .content {
+        @include grid(100%,1100px,20px,auto,center,#fff,20px,grid,repeat(4,1fr),20px);
+        a{
+            color: $colortext;
+            text-decoration: none;
+            &:hover{
+                color: $colorhover;
+            }
+        }
+      
+    }
+    .content-2{
+        @include grid(100%,1100px,20px,auto,center,#fff,20px,grid,repeat(4,1fr),20px);
+        a{
+            color: $colortext;
+            text-decoration: none;
+            &:hover{
+                color: $colorhover;
+            }
+    }
+}
+    
+}

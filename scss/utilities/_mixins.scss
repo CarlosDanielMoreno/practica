@@ -1,0 +1,30 @@
+@mixin grid($width,$max-width,$border,$margin,$text-align,$background-color,$padding,$display,$grid-template-columns,$grid-gap) {
+    width: width;
+    max-width: $max-width;
+    border: $border;
+    margin: $margin;
+    text-align: $text-align;
+    background-color: $background-color;
+    padding: $padding;
+    display: $display;
+    grid-template-columns: $grid-template-columns;
+    grid-gap: $grid-gap;
+
+}
+
+@mixin grid-2($width,$max-width,$margin,$display, $grid-template-columns,$grid-gap){
+    width: $width;
+    max-width:$max-width;
+    margin :$margin;
+    display: $display;
+    grid-template-columns: $grid-template-columns;
+    grid-gap:$grid-gap;
+}
+
+@mixin grid-3($width,$max-width,$display, $grid-template-columns,$grid-gap){
+    width: $width;
+    max-width:$max-width;
+    display: $display;
+    grid-template-columns: $grid-template-columns;
+    grid-gap:$grid-gap;
+}
